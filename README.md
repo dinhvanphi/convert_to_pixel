@@ -5,7 +5,7 @@ Convert an input image (`jpg`, `png`, ...) into a pixel-art style image.
 ## Usage
 
 ```bash
-python /home/runner/work/convert_to_pixel/convert_to_pixel/convert_to_pixel.py /path/to/input.jpg
+python convert_to_pixel.py /path/to/input.jpg
 ```
 
 Optional arguments:
@@ -16,5 +16,5 @@ Optional arguments:
 Example:
 
 ```bash
-python /home/runner/work/convert_to_pixel/convert_to_pixel/convert_to_pixel.py ./photo.jpg -o ./photo_pixel.png -p 16
+python convert_to_pixel.py ./photo.jpg -o ./photo_pixel.png -p 16
 ```
